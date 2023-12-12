@@ -1,0 +1,41 @@
+.body{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    font: bolder;
+    flex-flow: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.mainDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin-top: 110px;
+    align-items: center;
+    gap: 20px;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.hourDiv{
+    display: flex;
+    /* border: 2px solid green; */
+    /* padding: 70px;
+    width: 55px; */
+}
+
+.minDiv{
+    display: flex;
+    /* border: 2px solid yellow; */
+    /* padding: 70px;
+    width: 55px; */
+}
+
+.secDiv{
+    display: flex;
+    /* border: 2px solid blue; */
+    /* padding: 70px;
+    width: 55px; */
+}
